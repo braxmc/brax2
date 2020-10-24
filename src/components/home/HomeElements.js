@@ -63,7 +63,7 @@ export const Header = styled.h1`
   padding-bottom: 0.25em;
 
   @media screen and (max-width: 795px) {
-   font-size: 45px;
+   font-size: 50px;
   }
 
   @media screen and (max-width: 400px) {
@@ -114,3 +114,14 @@ export const Links = styled(Link)`
 export const LinkItem = styled.li`
   z-index: 3;
 `;
+
+export const Top = styled(Link)`
+  display: flex;
+  align-self: flex-start;
+  z-index: 3;
+  color: #EBEBEB;
+  position: fixed;
+  margin-bottom: 40em;
+  font-size: 20px;
+  cursor: pointer;
+`

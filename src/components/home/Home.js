@@ -1,10 +1,8 @@
 import React, {useEffect, useState} from 'react';
 
-import background1 from '../../videos/background1.mp4'
+import background1 from '../../videos/background1.mp4';
 
-import { HomeWrap, HomeBg, VideoBg, Header, Links, Header2, LinkItem } from './HomeElements'
-
-import { animateScroll, Link } from 'react-scroll';
+import { HomeWrap, HomeBg, VideoBg, Header, Links, Header2, LinkItem, Top } from './HomeElements';
 
 const Home = () => {
   const [scrollNav, setScrollNav] = useState(false)
@@ -22,7 +20,8 @@ const Home = () => {
   }
 
   return (
-    <HomeWrap>
+    <HomeWrap id='home'>
+      <Top to='home' smooth={true} duration={500} spy={true} exact='true'>Top ↑</Top>
       <HomeBg>
         <VideoBg autoPlay loop muted src={background1} type='video/mp4' />
       </HomeBg>
@@ -32,13 +31,13 @@ const Home = () => {
         <Links to='portfolio' smooth={true} duration={500} spy={true} exact='true' >Portfolio</Links>
       </LinkItem>
       <LinkItem>
-        <Links>Resume</Links>
+        <Links to='resume' smooth={true} duration={500} spy={true} exact='true'>Resume</Links>
       </LinkItem>
       <LinkItem>
-        <Links>About</Links>
+        <Links to='about' smooth={true} duration={500} spy={true} exact='true'>About</Links>
       </LinkItem>
       <LinkItem>
-        <Links>Contact</Links>
+        <Links to='contact' smooth={true} duration={500} spy={true} exact='true'>Contact</Links>
       </LinkItem>
     </HomeWrap>
   )

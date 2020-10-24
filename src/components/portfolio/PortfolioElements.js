@@ -16,11 +16,30 @@ export const Header = styled.h1`
   justify-content: center;
   color: #EBEBEB;
   z-index: 3;
-  padding-bottom: 1em;
 
   @media screen and (max-width: 795px) {
-   font-size: 60px;
+   font-size: 50px;
    padding-bottom: 0;
+  }
+`;
+
+export const Header2 = styled.h2`
+  font-family: 'Zilla Slab', serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  color: #EBEBEB;
+  z-index: 3;
+  padding-bottom: .6em;
+  padding-top: .5em;
+
+  @media screen and (max-width: 795px) {
+   font-size: 30px;
+   padding-bottom: 0;
+  }
+
+  @media screen and (max-width: 400px) {
+   font-size: 30px;
   }
 `;
 
@@ -44,14 +63,16 @@ export const ProjectWrap = styled.div`
   width: 400px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-self: center;
+  cursor: pointer;
 
 
   &:hover {
     background: rgba(99,99,99,0.4);
     color: #EBEBEB;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black; */
   }
 
   @media screen and (max-width: 795px) {
@@ -60,9 +81,19 @@ export const ProjectWrap = styled.div`
   }
 `
 
-export const Description = styled.p`
+export const Description = styled.a`
   font-family: 'Hind Siliguri', sans-serif;
   font-size: 20px;
   display: flex;
   justify-content: center;
+  padding: 0 2em;
+  text-decoration: none;
+  color: #000000;
 `
+
+// export const Description1 = styled.p`
+//     justify-content: center;
+//     padding: 0 5em;
+//     font-size: 15px;
+//     font-family: 'Quicksand', sans-serif;
+// `

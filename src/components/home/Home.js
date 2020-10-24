@@ -28,7 +28,7 @@ const Home = () => {
       <Header>Braxton McClellan</Header>
       <Header2>Web Developer</Header2>
       <LinkItem>
-        <Links to='portfolio' smooth={true} duration={500} spy={true} exact='true' >Portfolio</Links>
+        <Links to='portfolio' smooth={true} duration={500} spy={true} exact='true'>Portfolio</Links>
       </LinkItem>
       <LinkItem>
         <Links to='resume' smooth={true} duration={500} spy={true} exact='true'>Resume</Links>

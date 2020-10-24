@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <PortWrap id='portfolio' >
       <Header>Portfolio</Header>
-      <Header2>links below</Header2>
+      <Header2>links:</Header2>
       <ProjectContainer>
         <ProjectWrap>
             <Description href='https://trvlr.netlify.app/' target='_blank'>trvlr</Description>

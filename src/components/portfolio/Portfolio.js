@@ -16,7 +16,7 @@ const Portfolio = () => {
           <Description>Plantopia</Description>
         </ProjectWrap>
         <ProjectWrap>
-          <Description>API Project</Description>
+          <Description href='https://breakingbadlookup.netlify.app' target='_blank'>Breaking Bad Lookup</Description>
         </ProjectWrap>
       </ProjectContainer>
     </PortWrap>

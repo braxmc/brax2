@@ -17,6 +17,10 @@ export const Header = styled.h1`
    font-size: 50px;
    padding-bottom: 0;
   }
+
+  @media screen and (max-width: 600px) {
+    padding-top: 2em;
+  }
 `;
 
 export const Image = styled.img`
@@ -31,9 +35,8 @@ export const Image = styled.img`
     }
   }
 
-  @media screen and (max-width: 500px) {
-    height: 75vh;
-    padding-top: 1em;
+  @media screen and (max-width: 650px) {
+    display: none;
 
     &:hover {
       transform: scale(1.1);
@@ -44,4 +47,31 @@ export const Image = styled.img`
 export const ImageWrap = styled.div`
   display: flex;
   justify-content: center;
+`
+
+export const SmallScreen = styled.div`
+  display: none;
+  justify-content: center;
+  
+
+  @media screen and (max-width: 850px) {
+    display: flex;
+    margin-top: 10em;
+  }
+`
+
+export const Resumepdf = styled.a`
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #EBEBEB;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3em;
+  background: rgba(99,99,99,0.4);
+
+  &:hover {
+    background: rgba(99,99,99,0.8);
+    color: #EBEBEB;
+  }
 `

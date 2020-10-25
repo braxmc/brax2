@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { ResumeWrap, Header, Image, ImageWrap } from './ResumeElements';
+import { ResumeWrap, Header, Image, ImageWrap, SmallScreen, Resumepdf } from './ResumeElements';
 
 import image from '../../images/resume.png';
+
+import resume from '../../files/resumeapps.pdf';
 
 const Resume = () => {
 
@@ -12,6 +14,9 @@ const Resume = () => {
       <ImageWrap>
         <Image src={image} />
       </ImageWrap>
+      <SmallScreen>
+        <Resumepdf href={resume} target="blank">Click for resume</Resumepdf>
+      </SmallScreen>
     </ResumeWrap>
   )
 }

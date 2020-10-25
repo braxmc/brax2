@@ -124,4 +124,8 @@ export const Top = styled(Link)`
   margin-bottom: 40em;
   font-size: 20px;
   cursor: pointer;
+
+  @media screen and (max-width: 600px) {
+    margin-top: 2em;
+  }
 `

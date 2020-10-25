@@ -48,6 +48,9 @@ export const Description = styled.p`
     padding: 1em;
     border-radius: 10px;
     font-size: 0.85em;
+    margin-bottom: 0.5em;
+    margin-left: 4em;
+    margin-right: 4em;
   }
 `
 
@@ -73,12 +76,19 @@ export const Description1 = styled.p`
     padding: 1em;
     border-radius: 10px;
     font-size: 0.85em;
+    margin-bottom: 16em;
+    margin-left: 4em;
+    margin-right: 4em;
   }
 `
 
 export const Image = styled.img`
   width: 200px;
   border-radius: 50%;
+
+  @media screen and (max-width: 600px) {
+    width: 100px;
+  }
 `
 
 export const ImageWrap = styled.div`

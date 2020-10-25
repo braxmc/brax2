@@ -55,9 +55,14 @@ export const SmallScreen = styled.div`
   
 
   @media screen and (max-width: 850px) {
-    display: flex;
+    display: none;
     margin-top: 10em;
   }
+
+  @media screen and (max-width: 450px) {
+    display: flex;
+    margin-top: 6em;
+  }  
 `
 
 export const Resumepdf = styled.a`

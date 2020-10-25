@@ -21,6 +21,10 @@ export const Header = styled.h1`
    font-size: 50px;
    padding-bottom: 0;
   }
+
+  @media screen and (max-width: 450px) {
+    margin-top: 1em;
+  }
 `;
 
 export const Header2 = styled.h2`
@@ -51,6 +55,10 @@ export const ProjectContainer = styled.div`
 
   @media screen and (max-width: 795px) {
     margin-top: 7em;
+  }
+
+  @media screen and (max-width: 450px) {
+    margin-top: 1em;
   }
 `;
 
@@ -89,6 +97,11 @@ export const Description = styled.a`
   padding: 0 2em;
   text-decoration: none;
   color: #000000;
+
+  @media screen and (max-width: 450px) {
+    font-size: 15px;
+    padding: 0 1em;
+  }
 `
 
 // export const Description1 = styled.p`

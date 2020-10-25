@@ -121,7 +121,7 @@ export const Top = styled(Link)`
   z-index: 3;
   color: #EBEBEB;
   position: fixed;
-  margin-bottom: 40em;
+  margin-bottom: 38em;
   font-size: 20px;
   cursor: pointer;
 

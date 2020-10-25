@@ -21,7 +21,7 @@ export const Header = styled.h1`
   }
 
   @media screen and (max-width: 400px) {
-   margin-bottom: 4em;
+   padding-bottom: 1em;
   }
 `
 

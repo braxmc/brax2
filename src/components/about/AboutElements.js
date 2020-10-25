@@ -52,6 +52,10 @@ export const Description = styled.p`
     margin-left: 4em;
     margin-right: 4em;
   }
+
+  @media screen and (max-width: 400px) {
+   margin-bottom: 20em;
+  }
 `
 
 export const Description1 = styled.p`
@@ -79,6 +83,10 @@ export const Description1 = styled.p`
     margin-bottom: 16em;
     margin-left: 4em;
     margin-right: 4em;
+  }
+
+  @media screen and (max-width: 400px) {
+   display: none;
   }
 `
 

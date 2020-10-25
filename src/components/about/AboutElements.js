@@ -19,6 +19,10 @@ export const Header = styled.h1`
   @media screen and (max-width: 795px) {
     margin-top: 2em;
   }
+
+  @media screen and (max-width: 400px) {
+   margin-bottom: 4em;
+  }
 `
 
 export const Header2 = styled.h2`

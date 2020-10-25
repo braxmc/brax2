@@ -97,6 +97,10 @@ export const Image = styled.img`
   @media screen and (max-width: 600px) {
     width: 100px;
   }
+
+  @media screen and (max-width: 400px) {
+    display: none;
+  }
 `
 
 export const ImageWrap = styled.div`

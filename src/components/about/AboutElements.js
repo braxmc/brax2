@@ -58,7 +58,7 @@ export const Description = styled.p`
   }
 
   @media screen and (max-width: 400px) {
-   margin-bottom: 30em;
+   margin-bottom: 38em;
   }
 `
 

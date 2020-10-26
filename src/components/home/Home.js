@@ -21,7 +21,6 @@ const Home = () => {
 
   return (
     <HomeWrap id='home'>
-      <Top to='home' smooth={true} duration={500} spy={true} exact='true'>Top ↑</Top>
       <HomeBg>
         <VideoBg autoPlay loop muted src={background1} type='video/mp4' />
       </HomeBg>

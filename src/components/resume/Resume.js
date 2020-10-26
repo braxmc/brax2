@@ -11,7 +11,7 @@ const Resume = () => {
   return (
     <ResumeWrap id='resume'>
       <Header>Resume</Header>
-      <ImageWrap>
+      <ImageWrap href={resume} target="blank">
         <Image src={image} />
       </ImageWrap>
       <SmallScreen>

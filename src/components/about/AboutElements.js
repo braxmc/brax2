@@ -7,87 +7,75 @@ export const AboutWrap = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
 `;
 
 export const Header = styled.h1`
   font-family: 'zilla slab', sans-serif;
   font-size: 80px;
   color: #EBEBEB;
-  display: flex;
-  justify-content: center;
+  order: 1;
 
-  @media screen and (max-width: 795px) {
-    margin-top: 2em;
+  @media screen and (max-width: 765px) {
+    font-size: 50px;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 40px;
   }
 
   @media screen and (max-width: 400px) {
-   padding-bottom: 1em;
+    font-size: 30px;
   }
 `
 
 export const Header2 = styled.h2`
   font-family: 'zilla slab', sans-serif;
-  display: flex;
-  justify-content: center;
+`
+
+export const DescriptionWrap = styled.div`
+  order: 3;
+  height: 50vh;
+  width: 80vw;
+  border-radius: 10px;
 `
 
 export const Description = styled.p`
   font-family: 'hind siligury', sans-serif;
   font-size: 1.1em;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1em;
-  margin-right: 8em;
-  margin-left: 8em;
+  background: rgba(210,210,210,0.5);
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 10px;
 
   @media screen and (max-width: 765px) {
-    background: rgba(210,210,210,.3);
-    padding: 1em;
-    border-radius: 10px;
-    font-size: 1.05em;
+    font-size: 1em;
   }
 
   @media screen and (max-width: 600px) {
-    background: rgba(210,210,210,.3);
-    padding: 1em;
-    border-radius: 10px;
     font-size: 0.85em;
-    margin-bottom: 0.5em;
-    margin-left: 4em;
-    margin-right: 4em;
   }
 
   @media screen and (max-width: 400px) {
     background: none;
-    margin-bottom: 38em;
   }
 `
 
 export const Description1 = styled.p`
   font-family: 'hind siligury', sans-serif;
   font-size: 1.1em;
-  display: flex;
-  justify-content: center;
-  margin-top: 1em;
-  margin-right: 8em;
-  margin-left: 8em;
-  margin-bottom: 17em;
+  background: rgba(210,210,210,0.5);
+  border-radius: 10px;
+  padding: 1em;
 
   @media screen and (max-width: 765px) {
-    background: rgba(210,210,210,.3);
-    padding: 1em;
-    border-radius: 10px;
-    font-size: 1.05em;
+    font-size: 1em;
   }
 
   @media screen and (max-width: 600px) {
-    background: rgba(210,210,210,.3);
-    padding: 1em;
-    border-radius: 10px;
     font-size: 0.85em;
-    margin-bottom: 16em;
-    margin-left: 4em;
-    margin-right: 4em;
   }
 
   @media screen and (max-width: 400px) {
@@ -98,6 +86,10 @@ export const Description1 = styled.p`
 export const Image = styled.img`
   width: 200px;
   border-radius: 50%;
+  
+  @media screen and (max-width: 765px) {
+    width: 150px;
+  }
 
   @media screen and (max-width: 600px) {
     width: 100px;
@@ -112,4 +104,5 @@ export const ImageWrap = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 1em;
+  order: 2;
 `

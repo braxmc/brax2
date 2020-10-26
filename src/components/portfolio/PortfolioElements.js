@@ -7,37 +7,37 @@ export const PortWrap = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  overflow: hidden;
 `;
 
 export const Header = styled.h1`
   font-family: 'Zilla Slab', serif;
   font-size: 80px;
-  display: flex;
-  justify-content: center;
   color: #EBEBEB;
   z-index: 3;
+  order: 1;
 
-  @media screen and (max-width: 795px) {
+  @media screen and (max-width: 765px) {
    font-size: 50px;
    padding-bottom: 0;
   }
 
   @media screen and (max-width: 450px) {
-    margin-top: 1em;
+    margin-top: 10px;
   }
 `;
 
 export const Header2 = styled.h2`
   font-family: 'Zilla Slab', serif;
   font-size: 35px;
-  display: flex;
-  justify-content: center;
   color: #EBEBEB;
   z-index: 3;
   padding-bottom: .6em;
   padding-top: .5em;
+  order: 2;
 
-  @media screen and (max-width: 795px) {
+  @media screen and (max-width: 765px) {
    font-size: 30px;
    padding-bottom: 0;
   }
@@ -48,13 +48,9 @@ export const Header2 = styled.h2`
 `;
 
 export const ProjectContainer = styled.div`
-  margin-bottom: 11em;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  order: 3;
 
-  @media screen and (max-width: 795px) {
-    margin-top: 7em;
+  @media screen and (max-width: 765px) {
   }
 
   @media screen and (max-width: 450px) {
@@ -65,7 +61,7 @@ export const ProjectContainer = styled.div`
 export const ProjectWrap = styled.div`
   border: 1px solid black;
   padding: 2em 0;
-  margin: 1em 0;
+  margin: 1.5em 0;
   border-radius: 10px;
   background: rgba(210,210,210,.1);
   width: 400px;
@@ -73,8 +69,8 @@ export const ProjectWrap = styled.div`
   justify-content: center;
   flex-direction: column;
   align-self: center;
+  align-items: center;
   cursor: pointer;
-
 
   &:hover {
     background: rgba(99,99,99,0.4);
@@ -83,9 +79,9 @@ export const ProjectWrap = styled.div`
     -webkit-text-stroke-color: black; */
   }
 
-  @media screen and (max-width: 795px) {
+  @media screen and (max-width: 765px) {
     width: 200px;
-    padding: 1em 0;
+    padding: 1em 1em;
   }
 `
 

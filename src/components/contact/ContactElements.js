@@ -7,27 +7,27 @@ export const ContactWrap = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
+  align-self: center;
+  overflow: hidden;
 `
 export const SocialWrap = styled.div`
-  display: flex;
-  justify-content: center;
-  align-self: center;
   background: rgba(99,99,99,0.4);
-  margin-top: 1.7em;
-  margin-bottom: 8em;
   border-radius: 10px;
-  width: 550px;
+  width: 60vw;
   border: 1px solid black;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 
   &:hover {
     background: rgba(99,99,99,0.8);
     color: #EBEBEB;
   }
 
-  @media screen and (max-width: 795px) {
-    width: 350px;
-    margin-bottom: 8em;
+  @media screen and (max-width: 765px) {
+    width: 50vw;
+    margin-bottom: 50px;
   }  
 `
 
@@ -38,16 +38,10 @@ export const Header = styled.h1`
   display: flex;
   justify-content: center;
 
-  @media screen and (max-width: 795px) {
+  @media screen and (max-width: 765px) {
    font-size: 50px;
-   padding-bottom: 1em;
+   margin-bottom: 20px;
   }
-`
-
-export const Header2 = styled.h2`
-  font-family: 'zilla slab', sans-serif;
-  display: flex;
-  justify-content: center;
 `
 
 export const Description = styled.p`
@@ -55,36 +49,44 @@ export const Description = styled.p`
   font-size: 30px;
   display: flex;
   justify-content: center;
-  align-self: center;
   background: rgba(99,99,99,0.4);
-  margin-top: 1em;
-  margin-bottom: 0.5em;
-  padding: 1.4em 0;
+  padding: 25px 0;
   border-radius: 10px;
-  width: 550px;
+  width: 60vw;
   border: 1px solid black;
   cursor: pointer;
+  margin-bottom: 20px;
 
   &:hover {
     background: rgba(99,99,99,0.8);
     color: #EBEBEB;
   }
 
-  @media screen and (max-width: 795px) {
+  @media screen and (max-width: 765px) {
     font-size: 20px;
-    width: 350px;
-    margin-bottom: 1em;
+    width: 50vw;
+  }
+
+  @media screen and (max-width: 450px) {
+    font-size: 15px;
+    width: 50vw;
   }
 `
 
 export const Image = styled.img`
-padding: 2em;
+padding: 35px;
 
   &:hover {
     transform: scale(1.2);
   }
 
-  @media screen and (max-width: 795px) {
-    width: 3em;
+  @media screen and (max-width: 765px) {
+    width: 40px;
+    padding: 25px;
+  }
+
+  @media screen and (max-width: 450px) {
+    width: 25px;
+    padding: 20px;
   }
 `

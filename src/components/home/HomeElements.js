@@ -56,13 +56,12 @@ export const VideoBg = styled.video`
 export const Header = styled.h1`
   font-family: 'Zilla Slab', serif;
   font-size: 90px;
-  display: flex;
-  justify-content: center;
   color: #EBEBEB;
   z-index: 3;
   padding-bottom: 0.25em;
+  order: 1;
 
-  @media screen and (max-width: 795px) {
+  @media screen and (max-width: 765px) {
    font-size: 50px;
   }
 
@@ -74,13 +73,12 @@ export const Header = styled.h1`
 export const Header2 = styled.h2`
   font-family: 'Zilla Slab', serif;
   font-size: 50px;
-  display: flex;
-  justify-content: center;
   color: #EBEBEB;
   z-index: 3;
   padding-bottom: .5em;
+  order: 2;
 
-  @media screen and (max-width: 795px) {
+  @media screen and (max-width: 765px) {
    font-size: 30px;
    padding-bottom: 0;
   }
@@ -92,40 +90,27 @@ export const Header2 = styled.h2`
 
 export const Links = styled(Link)`
   font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
+  font-size: 25px;
   color: #EBEBEB;
   z-index: 3;
-  padding: 0.5em 0;
   cursor: pointer;
+  
   
   &:hover {
     text-decoration: underline;
     transform: scale(1.1)
   }
 
-  @media screen and (max-width: 795px) {
-   font-size: 15px;
+  @media screen and (max-width: 765px) {
+   font-size: 20px;
    padding: 0;
   }
 `;
 
 export const LinkItem = styled.li`
   z-index: 3;
+  order: 3;
+  padding: 1em 0%;
 `;
 
-export const Top = styled(Link)`
-  display: flex;
-  align-self: flex-start;
-  z-index: 3;
-  color: #EBEBEB;
-  position: fixed;
-  margin-bottom: 38em;
-  font-size: 20px;
-  cursor: pointer;
 
-  @media screen and (max-width: 600px) {
-    margin-top: 2em;
-  }
-`

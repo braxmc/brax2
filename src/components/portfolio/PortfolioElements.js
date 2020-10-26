@@ -63,7 +63,7 @@ export const ProjectWrap = styled.div`
   padding: 2em 0;
   margin: 1.5em 0;
   border-radius: 10px;
-  background: rgba(210,210,210,.1);
+  background: rgba(210,210,210,0.45);
   width: 400px;
   display: flex;
   justify-content: center;

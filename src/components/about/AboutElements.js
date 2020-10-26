@@ -82,14 +82,17 @@ export const Description1 = styled.p`
 
 export const Image = styled.img`
   width: 200px;
+  height: 200px;
   border-radius: 50%;
   
   @media screen and (max-width: 765px) {
     width: 150px;
+    height: 150px;
   }
 
   @media screen and (max-width: 600px) {
     width: 100px;
+    height: 100px;
   }
 
   @media screen and (max-width: 400px) {

@@ -74,7 +74,7 @@ export const Header = styled.h1`
   }
 
   @media screen and (max-width: 400px) {
-    font-size: 25px;
+    font-size: 30px;
   }
 `;
 
@@ -92,7 +92,7 @@ export const Header2 = styled.h2`
   }
 
   @media screen and (max-width: 400px) {
-   font-size: 30px;
+   font-size: 25px;
   }
 `;
 

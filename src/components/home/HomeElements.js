@@ -72,6 +72,10 @@ export const Header = styled.h1`
   @media screen and (max-width: 600px) {
    font-size: 45px;
   }
+
+  @media screen and (max-width: 400px) {
+    font-size: 25px;
+  }
 `;
 
 export const Header2 = styled.h2`

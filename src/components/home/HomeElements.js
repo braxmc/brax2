@@ -61,12 +61,16 @@ export const Header = styled.h1`
   padding-bottom: 0.25em;
   order: 1;
 
+  @media screen and (max-width: 850px) {
+    font-size: 75px;
+  }
+
   @media screen and (max-width: 765px) {
    font-size: 50px;
   }
 
-  @media screen and (max-width: 400px) {
-   font-size: 35px;
+  @media screen and (max-width: 600px) {
+   font-size: 45px;
   }
 `;
 

@@ -21,7 +21,7 @@ export const Header = styled.h1`
   }
 
   @media screen and (max-width: 650px) {
-
+    padding-bottom: 75px;
   }
 `;
 

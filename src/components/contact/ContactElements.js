@@ -56,6 +56,7 @@ export const Description = styled.p`
   border: 1px solid black;
   cursor: pointer;
   margin-bottom: 20px;
+  color: black;
 
   &:hover {
     background: rgba(99,99,99,0.8);

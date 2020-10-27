@@ -11,8 +11,12 @@ const Contact = () => {
   return (
     <ContactWrap id='contact'>
       <Header>Contact</Header>
-      <Description>thebraxmc@gmail.com</Description>
-      <Description>801-898-3661</Description>
+      <a href="mailto:thebraxmc@gmail.com">
+        <Description>thebraxmc@gmail.com</Description>
+      </a>
+      <a href="tel:+18018983661">
+        <Description>801-898-3661</Description>
+      </a>
       <SocialWrap>
         <a href='https://www.linkedin.com/in/braxton-mcclellan-a886a21b3/' target='_blank'>
           <Image src={icon3} />

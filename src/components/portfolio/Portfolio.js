@@ -9,14 +9,14 @@ const Portfolio = () => {
       <Header>Portfolio</Header>
       <Header2>links:</Header2>
       <ProjectContainer>
-        <ProjectWrap>
-            <Description href='https://trvlr.netlify.app/' target='_blank'>trvlr</Description>
+        <ProjectWrap href='https://trvlr.netlify.app/' target='_blank'>
+            <Description>trvlr</Description>
         </ProjectWrap>
-        <ProjectWrap>
+        <ProjectWrap href='https://plantopia-brax.herokuapp.com/' target='_blank'>
           <Description>Plantopia</Description>
         </ProjectWrap>
-        <ProjectWrap>
-          <Description href='https://breakingbadlookup.netlify.app' target='_blank'>Breaking Bad Lookup</Description>
+        <ProjectWrap href='https://breakingbadlookup.netlify.app' target='_blank'>
+          <Description>Breaking Bad Lookup</Description>
         </ProjectWrap>
       </ProjectContainer>
     </PortWrap>

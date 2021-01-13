@@ -25,24 +25,23 @@ export const Header = styled.h1`
   }
 `;
 
-export const Image = styled.img`
-  height: 75vh;
-
-  &:hover {
-      transform: scale(1.1);
-    }
-
-  @media screen and (max-width: 765px) {
-    display: flex;
-    width: 85%;
-  }
+export const SmallHeader = styled.h1`
+  font-family: 'zilla slab', sans-serif;
+  font-size: 20px;
+  color: #EBEBEB;
+  padding-bottom: 10px;
+  order: 1;
 
   @media screen and (max-width: 650px) {
     display: none;
+  }
+`;
 
-    &:hover {
-      transform: scale(1.05);
-    }
+export const Image = styled.img`
+  height: 75vh;
+
+  @media screen and (max-width: 650px) {
+    display: none;
   }
 `
 

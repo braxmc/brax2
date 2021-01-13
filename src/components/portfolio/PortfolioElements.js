@@ -58,7 +58,7 @@ export const ProjectContainer = styled.div`
   }
 `;
 
-export const ProjectWrap = styled.div`
+export const ProjectWrap = styled.a`
   border: 1px solid black;
   padding: 2em 0;
   margin: 1.5em 0;
@@ -85,7 +85,7 @@ export const ProjectWrap = styled.div`
   }
 `
 
-export const Description = styled.a`
+export const Description = styled.p`
   font-family: 'Hind Siliguri', sans-serif;
   font-size: 20px;
   display: flex;

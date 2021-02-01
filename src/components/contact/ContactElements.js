@@ -20,11 +20,6 @@ export const SocialWrap = styled.div`
   display: flex;
   justify-content: center;
 
-  &:hover {
-    background: rgba(99,99,99,0.8);
-    color: #EBEBEB;
-  }
-
   @media screen and (max-width: 765px) {
     width: 50vw;
     margin-bottom: 50px;
